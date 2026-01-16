@@ -7,8 +7,11 @@ print("shotout of my frnds:~")
 
 l = [ "anjali" , "soni" , "keshvi" , "priya" , "riya",
        "neha" , "khusboo" , "prachi" , "khushi" , "sweety"]
+speaker.speak(" shotout is start ")
 
 for name in l :
+    
     speaker.speak(f"well done {name}")
 
 print("done shotout !")
+speaker.speak(" every name had been called master !")
